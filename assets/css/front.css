@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Cookie Consent Banner — Front-end Styles
+   ========================================================================== */
+
+.ccb-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+
+    background-color: var(--ccb-bg, #1a1a1a);
+    color: var(--ccb-text, #fff);
+    font-size: 0.9rem;
+    line-height: 1.5;
+
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ccb-banner[hidden] {
+    display: none;
+}
+
+.ccb-message {
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.ccb-privacy-link {
+    color: inherit;
+    text-underline-offset: 2px;
+}
+
+.ccb-btn {
+    flex: 0 0 auto;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    background-color: var(--ccb-btn, #fff);
+    color: var(--ccb-btn-text, #1a1a1a);
+    font-size: inherit;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+
+    transition: filter 0.15s ease;
+}
+
+.ccb-btn:hover,
+.ccb-btn:focus-visible {
+    filter: brightness(0.9);
+    outline: 2px solid var(--ccb-btn, #fff);
+    outline-offset: 2px;
+}
