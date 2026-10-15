@@ -2,6 +2,10 @@
 
 A lightweight WordPress plugin that displays a dismissible GDPR cookie consent notice. No external scripts, no tracking pixels, no bloat — just a clean banner with fully configurable content and colors.
 
+[![Try it live in WordPress Playground](https://img.shields.io/badge/Try%20it%20live-WordPress%20Playground-3858e9?logo=wordpress&logoColor=white&style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/jdyach/cookie-consent-banner/main/_playground/blueprint.json)
+
+The live demo runs a real WordPress site in your browser with this plugin, the [Fieldnote](https://github.com/jdyach/fieldnote) block theme and sample content. It opens a sample home page with the consent banner at the bottom. Accept it, then try changing the message or colors under Settings → Cookie Consent. Nothing to install.
+
 ## Features
 
 - Dismissible banner fixed to the bottom of the page
