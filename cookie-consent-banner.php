@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/jdyach/cookie-consent-banner
  * Description:       Lightweight GDPR cookie consent notice. Displays a dismissible banner with configurable message, button label, and colors. Consent is stored in a cookie — no external scripts or tracking.
  * Version:           1.0.0
- * Author:            Jacqui Dyachenko
+ * Author:            Jacqui Dyach
  * Author URI:        https://jacquid.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
